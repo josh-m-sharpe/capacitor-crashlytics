@@ -9,11 +9,9 @@ import com.getcapacitor.PluginMethod;
 
 import com.crashlytics.android.Crashlytics;
 
-
 import io.fabric.sdk.android.Fabric;
 
 import static com.crashlytics.android.Crashlytics.*;
-
 
 @NativePlugin(
         permissions = {
@@ -57,6 +55,6 @@ public class CrashlyticsPlugin extends Plugin {
         setUserName(name);
 
         call.success();
-
     }
 }
+
